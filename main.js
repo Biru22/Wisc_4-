@@ -14551,8 +14551,2087 @@ if (edad === "12,8" && subtest === "AD") {
 
 //Edad 13 a 13,3
 //CC
+if (edad === "13,0" && subtest === "CC") {
+  for (let i = 0; i <= 68; i++) {
+    if (puntaje <= 6) {
+      equivalencia = 1;
+    } else if (puntaje <= 10) {
+      equivalencia = 2;
+    } else if (puntaje <= 14) {
+      equivalencia = 3;
+    } else if (puntaje <= 18) {
+      equivalencia = 4;
+    } else if (puntaje <= 22) {
+      equivalencia = 5;
+    } else if (puntaje <= 26) {
+      equivalencia = 6;
+    } else if (puntaje <= 30) {
+      equivalencia = 7;
+    } else if (puntaje <= 34) {
+      equivalencia = 8;
+    } else if (puntaje <= 38) {
+      equivalencia = 9;
+    } else if (puntaje <= 43) {
+      equivalencia = 10;
+    } else if (puntaje <= 47) {
+      equivalencia = 11;
+    } else if (puntaje <= 51) {
+      equivalencia = 12;
+    } else if (puntaje <= 55) {
+      equivalencia = 13;
+    } else if (puntaje <= 58) {
+      equivalencia = 14;
+    } else if (puntaje <= 60) {
+      equivalencia = 15;
+    } else if (puntaje <= 62) {
+      equivalencia = 16;
+    } else if (puntaje == 63) {
+      equivalencia = 17;
+    } else if (puntaje == 64) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//S
+if (edad === "13,0" && subtest === "S") {
+  for (let i = 0; i <= 44; i++) {
+    if (puntaje <= 6) {
+      equivalencia = 1;
+    } else if (puntaje <= 8) {
+      equivalencia = 2;
+    } else if (puntaje <= 10) {
+      equivalencia = 3;
+    } else if (puntaje <= 13) {
+      equivalencia = 4;
+    } else if (puntaje <= 15) {
+      equivalencia = 5;
+    } else if (puntaje <= 17) {
+      equivalencia = 6;
+    } else if (puntaje <= 20) {
+      equivalencia = 7;
+    } else if (puntaje <= 22) {
+      equivalencia = 8;
+    } else if (puntaje <= 24) {
+      equivalencia = 9;
+    } else if (puntaje <= 26) {
+      equivalencia = 10;
+    } else if (puntaje <= 28) {
+      equivalencia = 11;
+    } else if (puntaje <= 30) {
+      equivalencia = 12;
+    } else if (puntaje <= 32) {
+      equivalencia = 13;
+    } else if (puntaje <= 34) {
+      equivalencia = 14;
+    } else if (puntaje <= 36) {
+      equivalencia = 15;
+    } else if (puntaje <= 38) {
+      equivalencia = 16;
+    } else if (puntaje <= 40) {
+      equivalencia = 17;
+    } else if (puntaje <= 42) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//RD
+if (edad === "13,0" && subtest === "RD") {
+  for (let i = 0; i <= 32; i++) {
+    if (puntaje <= 6) {
+      equivalencia = 1;
+    } else if (puntaje == 7) {
+      equivalencia = 2;
+    } else if (puntaje <= 9) {
+      equivalencia = 3;
+    } else if (puntaje == 10) {
+      equivalencia = 4;
+    } else if (puntaje == 11) {
+      equivalencia = 5;
+    } else if (puntaje == 12) {
+      equivalencia = 6;
+    } else if (puntaje == 13) {
+      equivalencia = 7;
+    } else if (puntaje == 14) {
+      equivalencia = 8;
+    } else if (puntaje == 15) {
+      equivalencia = 9;
+    } else if (puntaje == 16) {
+      equivalencia = 10;
+    } else if (puntaje == 17) {
+      equivalencia = 11;
+    } else if (puntaje == 18) {
+      equivalencia = 12;
+    } else if (puntaje == 19) {
+      equivalencia = 13;
+    } else if (puntaje == 20) {
+      equivalencia = 14;
+    } else if (puntaje == 21) {
+      equivalencia = 15;
+    } else if (puntaje == 22) {
+      equivalencia = 16;
+    } else if (puntaje <= 24) {
+      equivalencia = 17;
+    } else if (puntaje == 25) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//CO
+if (edad === "13,0" && subtest === "CO") {
+  for (let i = 0; i <= 28; i++) {
+    if (puntaje <= 9) {
+      equivalencia = 1;
+    } else if (puntaje == 10) {
+      equivalencia = 2;
+    } else if (puntaje == 11) {
+      equivalencia = 3;
+    } else if (puntaje == 12) {
+      equivalencia = 4;
+    } else if (puntaje == 13) {
+      equivalencia = 5;
+    } else if (puntaje == 14) {
+      equivalencia = 6;
+    } else if (puntaje <= 16) {
+      equivalencia = 7;
+    } else if (puntaje == 17) {
+      equivalencia = 8;
+    } else if (puntaje == 18) {
+      equivalencia = 9;
+    } else if (puntaje == 19) {
+      equivalencia = 10;
+    } else if (puntaje == 20) {
+      equivalencia = 11;
+    } else if (puntaje == 21) {
+      equivalencia = 12;
+    } else if (puntaje == 22) {
+      equivalencia = 13;
+    } else if (puntaje == 23) {
+      equivalencia = 14;
+    } else if (puntaje == 24) {
+      equivalencia = 15;
+    } else if (puntaje == 25) {
+      equivalencia = 16;
+    } else if (puntaje == 26) {
+      equivalencia = 17;
+    } else if (puntaje == 27) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//CL
+if (edad === "13,0" && subtest === "CL") {
+  for (let i = 0; i <= 119; i++) {
+    if (puntaje <= 22) {
+      equivalencia = 1;
+    } else if (puntaje <= 24) {
+      equivalencia = 2;
+    } else if (puntaje <= 27) {
+      equivalencia = 3;
+    } else if (puntaje <= 32) {
+      equivalencia = 4;
+    } else if (puntaje <= 34) {
+      equivalencia = 5;
+    } else if (puntaje <= 39) {
+      equivalencia = 6;
+    } else if (puntaje <= 42) {
+      equivalencia = 7;
+    } else if (puntaje <= 44) {
+      equivalencia = 8;
+    } else if (puntaje <= 49) {
+      equivalencia = 9;
+    } else if (puntaje <= 54) {
+      equivalencia = 10;
+    } else if (puntaje <= 58) {
+      equivalencia = 11;
+    } else if (puntaje <= 63) {
+      equivalencia = 12;
+    } else if (puntaje <= 68) {
+      equivalencia = 13;
+    } else if (puntaje <= 72) {
+      equivalencia = 14;
+    } else if (puntaje <= 74) {
+      equivalencia = 15;
+    } else if (puntaje <= 78) {
+      equivalencia = 16;
+    } else if (puntaje <= 82) {
+      equivalencia = 17;
+    } else if (puntaje <= 86) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//V
+if (edad === "13,0" && subtest === "V") {
+  for (let i = 0; i <= 68; i++) {
+    if (puntaje <= 18) {
+      equivalencia = 1;
+    } else if (puntaje <= 21) {
+      equivalencia = 2;
+    } else if (puntaje <= 25) {
+      equivalencia = 3;
+    } else if (puntaje <= 29) {
+      equivalencia = 4;
+    } else if (puntaje <= 32) {
+      equivalencia = 5;
+    } else if (puntaje <= 35) {
+      equivalencia = 6;
+    } else if (puntaje <= 37) {
+      equivalencia = 7;
+    } else if (puntaje <= 40) {
+      equivalencia = 8;
+    } else if (puntaje <= 42) {
+      equivalencia = 9;
+    } else if (puntaje <= 45) {
+      equivalencia = 10;
+    } else if (puntaje <= 47) {
+      equivalencia = 11;
+    } else if (puntaje <= 50) {
+      equivalencia = 12;
+    } else if (puntaje <= 53) {
+      equivalencia = 13;
+    } else if (puntaje <= 55) {
+      equivalencia = 14;
+    } else if (puntaje <= 58) {
+      equivalencia = 15;
+    } else if (puntaje <= 60) {
+      equivalencia = 16;
+    } else if (puntaje <= 63) {
+      equivalencia = 17;
+    } else if (puntaje <= 66) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//LN
+if (edad === "13,0" && subtest === "LN") {
+  for (let i = 0; i <= 30; i++) {
+    if (puntaje <= 10) {
+      equivalencia = 1;
+    } else if (puntaje == 11) {
+      equivalencia = 2;
+    } else if (puntaje == 12) {
+      equivalencia = 3;
+    } else if (puntaje == 13) {
+      equivalencia = 4;
+    } else if (puntaje == 14) {
+      equivalencia = 5;
+    } else if (puntaje == 15) {
+      equivalencia = 6;
+    } else if (puntaje == 16) {
+      equivalencia = 7;
+    } else if (puntaje == 17) {
+      equivalencia = 8;
+    } else if (puntaje == 18) {
+      equivalencia = 9;
+    } else if (puntaje == 19) {
+      equivalencia = 10;
+    } else if (puntaje == 20) {
+      equivalencia = 11;
+    } else if (puntaje == 21) {
+      equivalencia = 13;
+    } else if (puntaje == 22) {
+      equivalencia = 14;
+    } else if (puntaje == 23) {
+      equivalencia = 15;
+    } else if (puntaje == 24) {
+      equivalencia = 16;
+    } else if (puntaje == 25) {
+      equivalencia = 17;
+    } else if (puntaje == 26) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//M
+if (edad === "13,0" && subtest === "M") {
+  for (let i = 0; i <= 35; i++) {
+    if (puntaje <= 8) {
+      equivalencia = 1;
+    } else if (puntaje <= 10) {
+      equivalencia = 2;
+    } else if (puntaje <= 12) {
+      equivalencia = 3;
+    } else if (puntaje == 13) {
+      equivalencia = 4;
+    } else if (puntaje <= 15) {
+      equivalencia = 5;
+    } else if (puntaje <= 17) {
+      equivalencia = 6;
+    } else if (puntaje == 18) {
+      equivalencia = 7;
+    } else if (puntaje <= 20) {
+      equivalencia = 8;
+    } else if (puntaje <= 22) {
+      equivalencia = 9;
+    } else if (puntaje == 23) {
+      equivalencia = 10;
+    } else if (puntaje <= 25) {
+      equivalencia = 11;
+    } else if (puntaje == 26) {
+      equivalencia = 12;
+    } else if (puntaje == 27) {
+      equivalencia = 13;
+    } else if (puntaje <= 29) {
+      equivalencia = 14;
+    } else if (puntaje == 30) {
+      equivalencia = 15;
+    } else if (puntaje == 31) {
+      equivalencia = 16;
+    } else if (puntaje == 32) {
+      equivalencia = 17;
+    } else if (puntaje == 33) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//C
+if (edad === "13,0" && subtest === "C") {
+  for (let i = 0; i <= 42; i++) {
+    if (puntaje <= 10) {
+      equivalencia = 1;
+    } else if (puntaje <= 12) {
+      equivalencia = 2;
+    } else if (puntaje <= 14) {
+      equivalencia = 3;
+    } else if (puntaje <= 17) {
+      equivalencia = 4;
+    } else if (puntaje <= 19) {
+      equivalencia = 5;
+    } else if (puntaje <= 21) {
+      equivalencia = 6;
+    } else if (puntaje <= 23) {
+      equivalencia = 7;
+    } else if (puntaje <= 25) {
+      equivalencia = 8;
+    } else if (puntaje <= 27) {
+      equivalencia = 9;
+    } else if (puntaje <= 29) {
+      equivalencia = 10;
+    } else if (puntaje <= 31) {
+      equivalencia = 11;
+    } else if (puntaje <= 33) {
+      equivalencia = 12;
+    } else if (puntaje == 34) {
+      equivalencia = 13;
+    } else if (puntaje == 35) {
+      equivalencia = 14;
+    } else if (puntaje == 36) {
+      equivalencia = 15;
+    } else if (puntaje == 37) {
+      equivalencia = 16;
+    } else if (puntaje == 38) {
+      equivalencia = 17;
+    } else if (puntaje == 39) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//BS
+if (edad === "13,0" && subtest === "BS") {
+  for (let i = 0; i <= 60; i++) {
+    if (puntaje <= 10) {
+      equivalencia = 1;
+    } else if (puntaje <= 12) {
+      equivalencia = 2;
+    } else if (puntaje <= 14) {
+      equivalencia = 3;
+    } else if (puntaje <= 16) {
+      equivalencia = 4;
+    } else if (puntaje <= 18) {
+      equivalencia = 5;
+    } else if (puntaje <= 20) {
+      equivalencia = 6;
+    } else if (puntaje <= 22) {
+      equivalencia = 7;
+    } else if (puntaje <= 24) {
+      equivalencia = 8;
+    } else if (puntaje <= 26) {
+      equivalencia = 9;
+    } else if (puntaje <= 28) {
+      equivalencia = 10;
+    } else if (puntaje == 29) {
+      equivalencia = 11;
+    } else if (puntaje <= 31) {
+      equivalencia = 12;
+    } else if (puntaje == 32) {
+      equivalencia = 13;
+    } else if (puntaje <= 34) {
+      equivalencia = 14;
+    } else if (puntaje <= 36) {
+      equivalencia = 15;
+    } else if (puntaje == 37) {
+      equivalencia = 16;
+    } else if (puntaje <= 39) {
+      equivalencia = 17;
+    } else if (puntaje <= 41) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//CF
+if (edad === "13,0" && subtest === "CF") {
+  for (let i = 0; i <= 38; i++) {
+    if (puntaje <= 11) {
+      equivalencia = 1;
+    } else if (puntaje == 12) {
+      equivalencia = 2;
+    } else if (puntaje <= 15) {
+      equivalencia = 3;
+    } else if (puntaje <= 17) {
+      equivalencia = 4;
+    } else if (puntaje <= 19) {
+      equivalencia = 5;
+    } else if (puntaje <= 21) {
+      equivalencia = 6;
+    } else if (puntaje <= 23) {
+      equivalencia = 7;
+    } else if (puntaje == 24) {
+      equivalencia = 8;
+    } else if (puntaje <= 26) {
+      equivalencia = 9;
+    } else if (puntaje <= 28) {
+      equivalencia = 10;
+    } else if (puntaje <= 30) {
+      equivalencia = 11;
+    } else if (puntaje == 31) {
+      equivalencia = 12;
+    } else if (puntaje == 32) {
+      equivalencia = 13;
+    } else if (puntaje == 33) {
+      equivalencia = 14;
+    } else if (puntaje == 34) {
+      equivalencia = 15;
+    } else if (puntaje == 35) {
+      equivalencia = 16;
+    } else if (puntaje == 36) {
+      equivalencia = 17;
+    } else if (puntaje == 37) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//A
+if (edad === "13,0" && subtest === "A") {
+  for (let i = 0; i <= 136; i++) {
+    if (puntaje <= 26) {
+      equivalencia = 1;
+    } else if (puntaje <= 32) {
+      equivalencia = 2;
+    } else if (puntaje <= 39) {
+      equivalencia = 3;
+    } else if (puntaje <= 46) {
+      equivalencia = 4;
+    } else if (puntaje <= 53) {
+      equivalencia = 5;
+    } else if (puntaje <= 60) {
+      equivalencia = 6;
+    } else if (puntaje <= 67) {
+      equivalencia = 7;
+    } else if (puntaje <= 74) {
+      equivalencia = 8;
+    } else if (puntaje <= 81) {
+      equivalencia = 9;
+    } else if (puntaje <= 88) {
+      equivalencia = 10;
+    } else if (puntaje <= 95) {
+      equivalencia = 11;
+    } else if (puntaje <= 100) {
+      equivalencia = 12;
+    } else if (puntaje <= 106) {
+      equivalencia = 13;
+    } else if (puntaje <= 110) {
+      equivalencia = 14;
+    } else if (puntaje <= 116) {
+      equivalencia = 15;
+    } else if (puntaje <= 123) {
+      equivalencia = 16;
+    } else if (puntaje <= 127) {
+      equivalencia = 17;
+    } else if (puntaje <= 133) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//I
+if (edad === "13,0" && subtest === "I") {
+  for (let i = 0; i <= 33; i++) {
+    if (puntaje <= 9) {
+      equivalencia = 1;
+    } else if (puntaje == 10) {
+      equivalencia = 2;
+    } else if (puntaje == 11) {
+      equivalencia = 3;
+    } else if (puntaje == 12) {
+      equivalencia = 4;
+    } else if (puntaje <= 14) {
+      equivalencia = 5;
+    } else if (puntaje == 15) {
+      equivalencia = 6;
+    } else if (puntaje <= 17) {
+      equivalencia = 7;
+    } else if (puntaje == 18) {
+      equivalencia = 8;
+    } else if (puntaje <= 20) {
+      equivalencia = 9;
+    } else if (puntaje == 21) {
+      equivalencia = 10;
+    } else if (puntaje == 22) {
+      equivalencia = 11;
+    } else if (puntaje == 23) {
+      equivalencia = 12;
+    } else if (puntaje == 24) {
+      equivalencia = 13;
+    } else if (puntaje <= 26) {
+      equivalencia = 14;
+    } else if (puntaje == 27) {
+      equivalencia = 15;
+    } else if (puntaje == 28) {
+      equivalencia = 16;
+    } else if (puntaje == 29) {
+      equivalencia = 17;
+    } else if (puntaje == 30) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//AR
+if (edad === "13,0" && subtest === "AR") {
+  for (let i = 0; i <= 34; i++) {
+    if (puntaje <= 16) {
+      equivalencia = 1;
+    } else if (puntaje == 17) {
+      equivalencia = 2;
+    } else if (puntaje == 18) {
+      equivalencia = 3;
+    } else if (puntaje == 19) {
+      equivalencia = 4;
+    } else if (puntaje == 20) {
+      equivalencia = 5;
+    } else if (puntaje == 21) {
+      equivalencia = 6;
+    } else if (puntaje == 22) {
+      equivalencia = 7;
+    } else if (puntaje == 23) {
+      equivalencia = 8;
+    } else if (puntaje == 24) {
+      equivalencia = 9;
+    } else if (puntaje == 25) {
+      equivalencia = 10;
+    } else if (puntaje == 26) {
+      equivalencia = 11;
+    } else if (puntaje == 27) {
+      equivalencia = 12;
+    } else if (puntaje == 28) {
+      equivalencia = 13;
+    } else if (puntaje == 29) {
+      equivalencia = 14;
+    } else if (puntaje == 30) {
+      equivalencia = 16;
+    } else if (puntaje == 31) {
+      equivalencia = 17;
+    } else if (puntaje == 32) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//AD
+if (edad === "13,0" && subtest === "AD") {
+  for (let i = 0; i <= 24; i++) {
+    if (puntaje <= 8) {
+      equivalencia = 1;
+    } else if (puntaje == 9) {
+      equivalencia = 2;
+    } else if (puntaje == 10) {
+      equivalencia = 3;
+    } else if (puntaje == 11) {
+      equivalencia = 4;
+    } else if (puntaje == 12) {
+      equivalencia = 5;
+    } else if (puntaje <= 14) {
+      equivalencia = 6;
+    } else if (puntaje == 15) {
+      equivalencia = 7;
+    } else if (puntaje == 16) {
+      equivalencia = 8;
+    } else if (puntaje == 17) {
+      equivalencia = 9;
+    } else if (puntaje == 18) {
+      equivalencia = 10;
+    } else if (puntaje == 19) {
+      equivalencia = 11;
+    } else if (puntaje == 20) {
+      equivalencia = 13;
+    } else if (puntaje == 21) {
+      equivalencia = 15;
+    } else if (puntaje == 22) {
+      equivalencia = 16;
+    } else if (puntaje == 23) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
 
 
+//Edad 13,4 a 13,7
+//CC
+if (edad === "13,4" && subtest === "CC") {
+  for (let i = 0; i <= 68; i++) {
+    if (puntaje <= 7) {
+      equivalencia = 1;
+    } else if (puntaje <= 11) {
+      equivalencia = 2;
+    } else if (puntaje <= 15) {
+      equivalencia = 3;
+    } else if (puntaje <= 20) {
+      equivalencia = 4;
+    } else if (puntaje <= 24) {
+      equivalencia = 5;
+    } else if (puntaje <= 28) {
+      equivalencia = 6;
+    } else if (puntaje <= 33) {
+      equivalencia = 7;
+    } else if (puntaje <= 37) {
+      equivalencia = 8;
+    } else if (puntaje <= 41) {
+      equivalencia = 9;
+    } else if (puntaje <= 45) {
+      equivalencia = 10;
+    } else if (puntaje <= 49) {
+      equivalencia = 11;
+    } else if (puntaje <= 53) {
+      equivalencia = 12;
+    } else if (puntaje <= 56) {
+      equivalencia = 13;
+    } else if (puntaje <= 58) {
+      equivalencia = 14;
+    } else if (puntaje <= 60) {
+      equivalencia = 15;
+    } else if (puntaje <= 62) {
+      equivalencia = 16;
+    } else if (puntaje == 63) {
+      equivalencia = 17;
+    } else if (puntaje == 64) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//S
+if (edad === "13,4" && subtest === "S") {
+  for (let i = 0; i <= 44; i++) {
+    if (puntaje <= 6) {
+      equivalencia = 1;
+    } else if (puntaje <= 8) {
+      equivalencia = 2;
+    } else if (puntaje <= 10) {
+      equivalencia = 3;
+    } else if (puntaje <= 13) {
+      equivalencia = 4;
+    } else if (puntaje <= 15) {
+      equivalencia = 5;
+    } else if (puntaje <= 17) {
+      equivalencia = 6;
+    } else if (puntaje <= 20) {
+      equivalencia = 7;
+    } else if (puntaje <= 22) {
+      equivalencia = 8;
+    } else if (puntaje <= 24) {
+      equivalencia = 9;
+    } else if (puntaje <= 27) {
+      equivalencia = 10;
+    } else if (puntaje <= 29) {
+      equivalencia = 11;
+    } else if (puntaje <= 31) {
+      equivalencia = 12;
+    } else if (puntaje <= 33) {
+      equivalencia = 13;
+    } else if (puntaje <= 35) {
+      equivalencia = 14;
+    } else if (puntaje <= 37) {
+      equivalencia = 15;
+    } else if (puntaje <= 39) {
+      equivalencia = 16;
+    } else if (puntaje == 40) {
+      equivalencia = 17;
+    } else if (puntaje <= 42) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//RD
+if (edad === "13,4" && subtest === "RD") {
+  for (let i = 0; i <= 32; i++) {
+    if (puntaje <= 6) {
+      equivalencia = 1;
+    } else if (puntaje == 7) {
+      equivalencia = 2;
+    } else if (puntaje <= 9) {
+      equivalencia = 3;
+    } else if (puntaje == 10) {
+      equivalencia = 4;
+    } else if (puntaje == 11) {
+      equivalencia = 5;
+    } else if (puntaje == 12) {
+      equivalencia = 6;
+    } else if (puntaje == 13) {
+      equivalencia = 7;
+    } else if (puntaje <= 15) {
+      equivalencia = 8;
+    } else if (puntaje == 16) {
+      equivalencia = 9;
+    } else if (puntaje == 17) {
+      equivalencia = 10;
+    } else if (puntaje == 18) {
+      equivalencia = 12;
+    } else if (puntaje == 19) {
+      equivalencia = 13;
+    } else if (puntaje == 20) {
+      equivalencia = 14;
+    } else if (puntaje == 21) {
+      equivalencia = 15;
+    } else if (puntaje == 22) {
+      equivalencia = 16;
+    } else if (puntaje <= 24) {
+      equivalencia = 17;
+    } else if (puntaje == 25) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//CO
+if (edad === "13,4" && subtest === "CO") {
+  for (let i = 0; i <= 28; i++) {
+    if (puntaje <= 9) {
+      equivalencia = 1;
+    } else if (puntaje == 10) {
+      equivalencia = 2;
+    } else if (puntaje == 11) {
+      equivalencia = 3;
+    } else if (puntaje == 12) {
+      equivalencia = 4;
+    } else if (puntaje == 13) {
+      equivalencia = 5;
+    } else if (puntaje == 14) {
+      equivalencia = 6;
+    } else if (puntaje <= 16) {
+      equivalencia = 7;
+    } else if (puntaje == 17) {
+      equivalencia = 8;
+    } else if (puntaje == 18) {
+      equivalencia = 9;
+    } else if (puntaje == 19) {
+      equivalencia = 10;
+    } else if (puntaje == 20) {
+      equivalencia = 11;
+    } else if (puntaje == 21) {
+      equivalencia = 12;
+    } else if (puntaje == 22) {
+      equivalencia = 13;
+    } else if (puntaje == 23) {
+      equivalencia = 14;
+    } else if (puntaje == 24) {
+      equivalencia = 15;
+    } else if (puntaje == 25) {
+      equivalencia = 16;
+    } else if (puntaje == 26) {
+      equivalencia = 17;
+    } else if (puntaje == 27) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//CL
+if (edad === "13,4" && subtest === "CL") {
+  for (let i = 0; i <= 119; i++) {
+    if (puntaje <= 23) {
+      equivalencia = 1;
+    } else if (puntaje <= 26) {
+      equivalencia = 2;
+    } else if (puntaje <= 28) {
+      equivalencia = 3;
+    } else if (puntaje <= 33) {
+      equivalencia = 4;
+    } else if (puntaje <= 37) {
+      equivalencia = 5;
+    } else if (puntaje <= 40) {
+      equivalencia = 6;
+    } else if (puntaje <= 43) {
+      equivalencia = 7;
+    } else if (puntaje <= 48) {
+      equivalencia = 8;
+    } else if (puntaje <= 52) {
+      equivalencia = 9;
+    } else if (puntaje <= 56) {
+      equivalencia = 10;
+    } else if (puntaje <= 60) {
+      equivalencia = 11;
+    } else if (puntaje <= 64) {
+      equivalencia = 12;
+    } else if (puntaje <= 68) {
+      equivalencia = 13;
+    } else if (puntaje <= 72) {
+      equivalencia = 14;
+    } else if (puntaje <= 75) {
+      equivalencia = 15;
+    } else if (puntaje <= 78) {
+      equivalencia = 16;
+    } else if (puntaje <= 82) {
+      equivalencia = 17;
+    } else if (puntaje <= 86) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//V
+if (edad === "13,4" && subtest === "V") {
+  for (let i = 0; i <= 68; i++) {
+    if (puntaje <= 19) {
+      equivalencia = 1;
+    } else if (puntaje <= 22) {
+      equivalencia = 2;
+    } else if (puntaje <= 26) {
+      equivalencia = 3;
+    } else if (puntaje <= 29) {
+      equivalencia = 4;
+    } else if (puntaje <= 32) {
+      equivalencia = 5;
+    } else if (puntaje <= 35) {
+      equivalencia = 6;
+    } else if (puntaje <= 38) {
+      equivalencia = 7;
+    } else if (puntaje <= 41) {
+      equivalencia = 8;
+    } else if (puntaje <= 43) {
+      equivalencia = 9;
+    } else if (puntaje <= 46) {
+      equivalencia = 10;
+    } else if (puntaje <= 48) {
+      equivalencia = 11;
+    } else if (puntaje <= 51) {
+      equivalencia = 12;
+    } else if (puntaje <= 54) {
+      equivalencia = 13;
+    } else if (puntaje <= 56) {
+      equivalencia = 14;
+    } else if (puntaje <= 59) {
+      equivalencia = 15;
+    } else if (puntaje <= 61) {
+      equivalencia = 16;
+    } else if (puntaje <= 63) {
+      equivalencia = 17;
+    } else if (puntaje <= 66) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//LN
+if (edad === "13,4" && subtest === "LN") {
+  for (let i = 0; i <= 30; i++) {
+    if (puntaje <= 10) {
+      equivalencia = 1;
+    } else if (puntaje == 11) {
+      equivalencia = 2;
+    } else if (puntaje == 12) {
+      equivalencia = 3;
+    } else if (puntaje == 13) {
+      equivalencia = 4;
+    } else if (puntaje == 14) {
+      equivalencia = 5;
+    } else if (puntaje == 15) {
+      equivalencia = 6;
+    } else if (puntaje == 16) {
+      equivalencia = 7;
+    } else if (puntaje == 17) {
+      equivalencia = 8;
+    } else if (puntaje == 18) {
+      equivalencia = 9;
+    } else if (puntaje == 19) {
+      equivalencia = 10;
+    } else if (puntaje == 20) {
+      equivalencia = 11;
+    } else if (puntaje == 21) {
+      equivalencia = 13;
+    } else if (puntaje == 22) {
+      equivalencia = 14;
+    } else if (puntaje == 23) {
+      equivalencia = 15;
+    } else if (puntaje == 24) {
+      equivalencia = 16;
+    } else if (puntaje == 25) {
+      equivalencia = 17;
+    } else if (puntaje == 26) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//M
+if (edad === "13,4" && subtest === "M") {
+  for (let i = 0; i <= 35; i++) {
+    if (puntaje <= 9) {
+      equivalencia = 1;
+    } else if (puntaje <= 11) {
+      equivalencia = 2;
+    } else if (puntaje == 12) {
+      equivalencia = 3;
+    } else if (puntaje <= 14) {
+      equivalencia = 4;
+    } else if (puntaje == 15) {
+      equivalencia = 5;
+    } else if (puntaje <= 17) {
+      equivalencia = 6;
+    } else if (puntaje <= 19) {
+      equivalencia = 7;
+    } else if (puntaje == 20) {
+      equivalencia = 8;
+    } else if (puntaje <= 22) {
+      equivalencia = 9;
+    } else if (puntaje <= 24) {
+      equivalencia = 10;
+    } else if (puntaje == 25) {
+      equivalencia = 11;
+    } else if (puntaje == 26) {
+      equivalencia = 12;
+    } else if (puntaje == 27) {
+      equivalencia = 13;
+    } else if (puntaje <= 29) {
+      equivalencia = 14;
+    } else if (puntaje == 30) {
+      equivalencia = 15;
+    } else if (puntaje == 31) {
+      equivalencia = 16;
+    } else if (puntaje == 32) {
+      equivalencia = 17;
+    } else if (puntaje == 33) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//C
+if (edad === "13,4" && subtest === "C") {
+  for (let i = 0; i <= 42; i++) {
+    if (puntaje <= 11) {
+      equivalencia = 1;
+    } else if (puntaje <= 13) {
+      equivalencia = 2;
+    } else if (puntaje <= 15) {
+      equivalencia = 3;
+    } else if (puntaje <= 17) {
+      equivalencia = 4;
+    } else if (puntaje <= 20) {
+      equivalencia = 5;
+    } else if (puntaje <= 22) {
+      equivalencia = 6;
+    } else if (puntaje <= 24) {
+      equivalencia = 7;
+    } else if (puntaje <= 26) {
+      equivalencia = 8;
+    } else if (puntaje <= 28) {
+      equivalencia = 9;
+    } else if (puntaje == 29) {
+      equivalencia = 10;
+    } else if (puntaje <= 31) {
+      equivalencia = 11;
+    } else if (puntaje <= 33) {
+      equivalencia = 12;
+    } else if (puntaje == 34) {
+      equivalencia = 13;
+    } else if (puntaje == 35) {
+      equivalencia = 14;
+    } else if (puntaje == 36) {
+      equivalencia = 15;
+    } else if (puntaje == 37) {
+      equivalencia = 16;
+    } else if (puntaje == 38) {
+      equivalencia = 17;
+    } else if (puntaje == 39) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//BS
+if (edad === "13,4" && subtest === "BS") {
+  for (let i = 0; i <= 60; i++) {
+    if (puntaje <= 10) {
+      equivalencia = 1;
+    } else if (puntaje <= 12) {
+      equivalencia = 2;
+    } else if (puntaje <= 14) {
+      equivalencia = 3;
+    } else if (puntaje <= 16) {
+      equivalencia = 4;
+    } else if (puntaje <= 19) {
+      equivalencia = 5;
+    } else if (puntaje <= 21) {
+      equivalencia = 6;
+    } else if (puntaje <= 23) {
+      equivalencia = 7;
+    } else if (puntaje <= 25) {
+      equivalencia = 8;
+    } else if (puntaje == 26) {
+      equivalencia = 9;
+    } else if (puntaje <= 28) {
+      equivalencia = 10;
+    } else if (puntaje == 29) {
+      equivalencia = 11;
+    } else if (puntaje <= 31) {
+      equivalencia = 12;
+    } else if (puntaje == 32) {
+      equivalencia = 13;
+    } else if (puntaje <= 34) {
+      equivalencia = 14;
+    } else if (puntaje <= 36) {
+      equivalencia = 15;
+    } else if (puntaje == 37) {
+      equivalencia = 16;
+    } else if (puntaje <= 39) {
+      equivalencia = 17;
+    } else if (puntaje <= 41) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//CF
+if (edad === "13,4" && subtest === "CF") {
+  for (let i = 0; i <= 38; i++) {
+    if (puntaje <= 11) {
+      equivalencia = 1;
+    } else if (puntaje == 12) {
+      equivalencia = 2;
+    } else if (puntaje <= 15) {
+      equivalencia = 3;
+    } else if (puntaje <= 17) {
+      equivalencia = 4;
+    } else if (puntaje <= 20) {
+      equivalencia = 5;
+    } else if (puntaje <= 22) {
+      equivalencia = 6;
+    } else if (puntaje <= 24) {
+      equivalencia = 7;
+    } else if (puntaje == 25) {
+      equivalencia = 8;
+    } else if (puntaje <= 27) {
+      equivalencia = 9;
+    } else if (puntaje == 28) {
+      equivalencia = 10;
+    } else if (puntaje <= 30) {
+      equivalencia = 11;
+    } else if (puntaje == 31) {
+      equivalencia = 12;
+    } else if (puntaje == 32) {
+      equivalencia = 13;
+    } else if (puntaje == 33) {
+      equivalencia = 14;
+    } else if (puntaje == 34) {
+      equivalencia = 15;
+    } else if (puntaje == 35) {
+      equivalencia = 16;
+    } else if (puntaje == 36) {
+      equivalencia = 17;
+    } else if (puntaje == 37) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//A
+if (edad === "13,4" && subtest === "A") {
+  for (let i = 0; i <= 136; i++) {
+    if (puntaje <= 27) {
+      equivalencia = 1;
+    } else if (puntaje <= 34) {
+      equivalencia = 2;
+    } else if (puntaje <= 41) {
+      equivalencia = 3;
+    } else if (puntaje <= 48) {
+      equivalencia = 4;
+    } else if (puntaje <= 54) {
+      equivalencia = 5;
+    } else if (puntaje <= 61) {
+      equivalencia = 6;
+    } else if (puntaje <= 68) {
+      equivalencia = 7;
+    } else if (puntaje <= 75) {
+      equivalencia = 8;
+    } else if (puntaje <= 82) {
+      equivalencia = 9;
+    } else if (puntaje <= 88) {
+      equivalencia = 10;
+    } else if (puntaje <= 95) {
+      equivalencia = 11;
+    } else if (puntaje <= 100) {
+      equivalencia = 12;
+    } else if (puntaje <= 106) {
+      equivalencia = 13;
+    } else if (puntaje <= 111) {
+      equivalencia = 14;
+    } else if (puntaje <= 116) {
+      equivalencia = 15;
+    } else if (puntaje <= 123) {
+      equivalencia = 16;
+    } else if (puntaje <= 128) {
+      equivalencia = 17;
+    } else if (puntaje <= 133) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//I
+if (edad === "13,4" && subtest === "I") {
+  for (let i = 0; i <= 33; i++) {
+    if (puntaje <= 9) {
+      equivalencia = 1;
+    } else if (puntaje == 10) {
+      equivalencia = 2;
+    } else if (puntaje == 11) {
+      equivalencia = 3;
+    } else if (puntaje == 12) {
+      equivalencia = 4;
+    } else if (puntaje <= 14) {
+      equivalencia = 5;
+    } else if (puntaje == 15) {
+      equivalencia = 6;
+    } else if (puntaje <= 17) {
+      equivalencia = 7;
+    } else if (puntaje == 18) {
+      equivalencia = 8;
+    } else if (puntaje <= 20) {
+      equivalencia = 9;
+    } else if (puntaje == 21) {
+      equivalencia = 10;
+    } else if (puntaje <= 23) {
+      equivalencia = 11;
+    } else if (puntaje == 24) {
+      equivalencia = 12;
+    } else if (puntaje == 25) {
+      equivalencia = 13;
+    } else if (puntaje == 26) {
+      equivalencia = 14;
+    } else if (puntaje <= 28) {
+      equivalencia = 15;
+    } else if (puntaje == 29) {
+      equivalencia = 16;
+    } else if (puntaje == 30) {
+      equivalencia = 17;
+    } else if (puntaje == 31) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//AR
+if (edad === "13,4" && subtest === "AR") {
+  for (let i = 0; i <= 34; i++) {
+    if (puntaje <= 16) {
+      equivalencia = 1;
+    } else if (puntaje == 17) {
+      equivalencia = 2;
+    } else if (puntaje == 18) {
+      equivalencia = 3;
+    } else if (puntaje == 19) {
+      equivalencia = 4;
+    } else if (puntaje == 20) {
+      equivalencia = 5;
+    } else if (puntaje == 21) {
+      equivalencia = 6;
+    } else if (puntaje == 22) {
+      equivalencia = 7;
+    } else if (puntaje == 23) {
+      equivalencia = 8;
+    } else if (puntaje == 24) {
+      equivalencia = 9;
+    } else if (puntaje <= 26) {
+      equivalencia = 10;
+    } else if (puntaje == 27) {
+      equivalencia = 11;
+    } else if (puntaje == 28) {
+      equivalencia = 12;
+    } else if (puntaje == 29) {
+      equivalencia = 13;
+    } else if (puntaje == 30) {
+      equivalencia = 15;
+    } else if (puntaje == 31) {
+      equivalencia = 16;
+    } else if (puntaje == 32) {
+      equivalencia = 17;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//AD
+if (edad === "13,4" && subtest === "AD") {
+  for (let i = 0; i <= 24; i++) {
+    if (puntaje <= 8) {
+      equivalencia = 1;
+    } else if (puntaje == 9) {
+      equivalencia = 2;
+    } else if (puntaje == 10) {
+      equivalencia = 3;
+    } else if (puntaje == 11) {
+      equivalencia = 4;
+    } else if (puntaje == 12) {
+      equivalencia = 5;
+    } else if (puntaje <= 14) {
+      equivalencia = 6;
+    } else if (puntaje == 15) {
+      equivalencia = 7;
+    } else if (puntaje == 16) {
+      equivalencia = 8;
+    } else if (puntaje == 17) {
+      equivalencia = 9;
+    } else if (puntaje == 18) {
+      equivalencia = 10;
+    } else if (puntaje == 19) {
+      equivalencia = 11;
+    } else if (puntaje == 20) {
+      equivalencia = 13;
+    } else if (puntaje == 21) {
+      equivalencia = 15;
+    } else if (puntaje == 22) {
+      equivalencia = 16;
+    } else if (puntaje == 23) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//Edad 13,8 a 13,11
+//CC
+if (edad === "13,8" && subtest === "CC") {
+  for (let i = 0; i <= 68; i++) {
+    if (puntaje <= 8) {
+      equivalencia = 1;
+    } else if (puntaje <= 12) {
+      equivalencia = 2;
+    } else if (puntaje <= 16) {
+      equivalencia = 3;
+    } else if (puntaje <= 23) {
+      equivalencia = 4;
+    } else if (puntaje <= 26) {
+      equivalencia = 5;
+    } else if (puntaje <= 31) {
+      equivalencia = 6;
+    } else if (puntaje <= 35) {
+      equivalencia = 7;
+    } else if (puntaje <= 39) {
+      equivalencia = 8;
+    } else if (puntaje <= 43) {
+      equivalencia = 9;
+    } else if (puntaje <= 47) {
+      equivalencia = 10;
+    } else if (puntaje <= 50) {
+      equivalencia = 11;
+    } else if (puntaje <= 53) {
+      equivalencia = 12;
+    } else if (puntaje <= 56) {
+      equivalencia = 13;
+    } else if (puntaje <= 59) {
+      equivalencia = 14;
+    } else if (puntaje <= 61) {
+      equivalencia = 15;
+    } else if (puntaje == 62) {
+      equivalencia = 16;
+    } else if (puntaje == 63) {
+      equivalencia = 17;
+    } else if (puntaje == 64) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//S
+if (edad === "13,8" && subtest === "S") {
+  for (let i = 0; i <= 44; i++) {
+    if (puntaje <= 7) {
+      equivalencia = 1;
+    } else if (puntaje <= 10) {
+      equivalencia = 2;
+    } else if (puntaje <= 12) {
+      equivalencia = 3;
+    } else if (puntaje <= 14) {
+      equivalencia = 4;
+    } else if (puntaje <= 16) {
+      equivalencia = 5;
+    } else if (puntaje <= 18) {
+      equivalencia = 6;
+    } else if (puntaje <= 21) {
+      equivalencia = 7;
+    } else if (puntaje <= 23) {
+      equivalencia = 8;
+    } else if (puntaje <= 25) {
+      equivalencia = 9;
+    } else if (puntaje <= 27) {
+      equivalencia = 10;
+    } else if (puntaje <= 29) {
+      equivalencia = 11;
+    } else if (puntaje <= 32) {
+      equivalencia = 12;
+    } else if (puntaje == 33) {
+      equivalencia = 13;
+    } else if (puntaje <= 35) {
+      equivalencia = 14;
+    } else if (puntaje <= 37) {
+      equivalencia = 15;
+    } else if (puntaje <= 39) {
+      equivalencia = 16;
+    } else if (puntaje == 40) {
+      equivalencia = 17;
+    } else if (puntaje <= 42) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//RD
+if (edad === "13,8" && subtest === "RD") {
+  for (let i = 0; i <= 32; i++) {
+    if (puntaje <= 6) {
+      equivalencia = 1;
+    } else if (puntaje == 7) {
+      equivalencia = 2;
+    } else if (puntaje <= 9) {
+      equivalencia = 3;
+    } else if (puntaje == 10) {
+      equivalencia = 4;
+    } else if (puntaje == 11) {
+      equivalencia = 5;
+    } else if (puntaje == 12) {
+      equivalencia = 6;
+    } else if (puntaje == 13) {
+      equivalencia = 7;
+    } else if (puntaje <= 15) {
+      equivalencia = 8;
+    } else if (puntaje == 16) {
+      equivalencia = 9;
+    } else if (puntaje == 17) {
+      equivalencia = 10;
+    } else if (puntaje == 18) {
+      equivalencia = 11;
+    } else if (puntaje == 19) {
+      equivalencia = 12;
+    } else if (puntaje == 20) {
+      equivalencia = 13;
+    } else if (puntaje == 21) {
+      equivalencia = 14;
+    } else if (puntaje == 22) {
+      equivalencia = 15;
+    } else if (puntaje == 23) {
+      equivalencia = 16;
+    } else if (puntaje == 24) {
+      equivalencia = 17;
+    } else if (puntaje == 25) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//CO
+if (edad === "13,8" && subtest === "CO") {
+  for (let i = 0; i <= 28; i++) {
+    if (puntaje <= 10) {
+      equivalencia = 1;
+    } else if (puntaje == 11) {
+      equivalencia = 2;
+    } else if (puntaje == 12) {
+      equivalencia = 3;
+    } else if (puntaje == 13) {
+      equivalencia = 4;
+    } else if (puntaje == 14) {
+      equivalencia = 5;
+    } else if (puntaje == 15) {
+      equivalencia = 6;
+    } else if (puntaje == 16) {
+      equivalencia = 7;
+    } else if (puntaje == 17) {
+      equivalencia = 8;
+    } else if (puntaje == 18) {
+      equivalencia = 9;
+    } else if (puntaje == 19) {
+      equivalencia = 10;
+    } else if (puntaje == 20) {
+      equivalencia = 11;
+    } else if (puntaje == 21) {
+      equivalencia = 12;
+    } else if (puntaje == 22) {
+      equivalencia = 13;
+    } else if (puntaje == 23) {
+      equivalencia = 14;
+    } else if (puntaje == 24) {
+      equivalencia = 15;
+    } else if (puntaje == 25) {
+      equivalencia = 16;
+    } else if (puntaje == 26) {
+      equivalencia = 17;
+    } else if (puntaje == 27) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//CL
+if (edad === "13,8" && subtest === "CL") {
+  for (let i = 0; i <= 119; i++) {
+    if (puntaje <= 24) {
+      equivalencia = 1;
+    } else if (puntaje <= 28) {
+      equivalencia = 2;
+    } else if (puntaje <= 32) {
+      equivalencia = 3;
+    } else if (puntaje <= 34) {
+      equivalencia = 4;
+    } else if (puntaje <= 37) {
+      equivalencia = 5;
+    } else if (puntaje <= 40) {
+      equivalencia = 6;
+    } else if (puntaje <= 44) {
+      equivalencia = 7;
+    } else if (puntaje <= 48) {
+      equivalencia = 8;
+    } else if (puntaje <= 52) {
+      equivalencia = 9;
+    } else if (puntaje <= 56) {
+      equivalencia = 10;
+    } else if (puntaje <= 60) {
+      equivalencia = 11;
+    } else if (puntaje <= 64) {
+      equivalencia = 12;
+    } else if (puntaje <= 68) {
+      equivalencia = 13;
+    } else if (puntaje <= 72) {
+      equivalencia = 14;
+    } else if (puntaje <= 75) {
+      equivalencia = 15;
+    } else if (puntaje <= 78) {
+      equivalencia = 16;
+    } else if (puntaje <= 82) {
+      equivalencia = 17;
+    } else if (puntaje <= 87) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//V
+if (edad === "13,8" && subtest === "V") {
+  for (let i = 0; i <= 68; i++) {
+    if (puntaje <= 20) {
+      equivalencia = 1;
+    } else if (puntaje <= 23) {
+      equivalencia = 2;
+    } else if (puntaje <= 26) {
+      equivalencia = 3;
+    } else if (puntaje <= 29) {
+      equivalencia = 4;
+    } else if (puntaje <= 32) {
+      equivalencia = 5;
+    } else if (puntaje <= 35) {
+      equivalencia = 6;
+    } else if (puntaje <= 38) {
+      equivalencia = 7;
+    } else if (puntaje <= 41) {
+      equivalencia = 8;
+    } else if (puntaje <= 44) {
+      equivalencia = 9;
+    } else if (puntaje <= 46) {
+      equivalencia = 10;
+    } else if (puntaje <= 49) {
+      equivalencia = 11;
+    } else if (puntaje <= 51) {
+      equivalencia = 12;
+    } else if (puntaje <= 54) {
+      equivalencia = 13;
+    } else if (puntaje <= 56) {
+      equivalencia = 14;
+    } else if (puntaje <= 59) {
+      equivalencia = 15;
+    } else if (puntaje <= 61) {
+      equivalencia = 16;
+    } else if (puntaje <= 63) {
+      equivalencia = 17;
+    } else if (puntaje <= 66) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//LN
+if (edad === "13,8" && subtest === "LN") {
+  for (let i = 0; i <= 30; i++) {
+    if (puntaje <= 10) {
+      equivalencia = 1;
+    } else if (puntaje == 11) {
+      equivalencia = 2;
+    } else if (puntaje == 12) {
+      equivalencia = 3;
+    } else if (puntaje == 13) {
+      equivalencia = 4;
+    } else if (puntaje == 14) {
+      equivalencia = 5;
+    } else if (puntaje == 15) {
+      equivalencia = 6;
+    } else if (puntaje == 16) {
+      equivalencia = 7;
+    } else if (puntaje == 17) {
+      equivalencia = 8;
+    } else if (puntaje == 18) {
+      equivalencia = 9;
+    } else if (puntaje == 19) {
+      equivalencia = 10;
+    } else if (puntaje == 20) {
+      equivalencia = 11;
+    } else if (puntaje == 21) {
+      equivalencia = 13;
+    } else if (puntaje == 22) {
+      equivalencia = 14;
+    } else if (puntaje == 23) {
+      equivalencia = 15;
+    } else if (puntaje == 24) {
+      equivalencia = 16;
+    } else if (puntaje == 25) {
+      equivalencia = 17;
+    } else if (puntaje == 26) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//M
+if (edad === "13,8" && subtest === "M") {
+  for (let i = 0; i <= 35; i++) {
+    if (puntaje <= 9) {
+      equivalencia = 1;
+    } else if (puntaje <= 11) {
+      equivalencia = 2;
+    } else if (puntaje <= 13) {
+      equivalencia = 3;
+    } else if (puntaje <= 15) {
+      equivalencia = 4;
+    } else if (puntaje <= 17) {
+      equivalencia = 5;
+    } else if (puntaje == 18) {
+      equivalencia = 6;
+    } else if (puntaje <= 20) {
+      equivalencia = 7;
+    } else if (puntaje == 21) {
+      equivalencia = 8;
+    } else if (puntaje == 22) {
+      equivalencia = 9;
+    } else if (puntaje <= 24) {
+      equivalencia = 10;
+    } else if (puntaje == 25) {
+      equivalencia = 11;
+    } else if (puntaje == 26) {
+      equivalencia = 12;
+    } else if (puntaje == 27) {
+      equivalencia = 13;
+    } else if (puntaje <= 29) {
+      equivalencia = 14;
+    } else if (puntaje == 30) {
+      equivalencia = 15;
+    } else if (puntaje == 31) {
+      equivalencia = 16;
+    } else if (puntaje == 32) {
+      equivalencia = 17;
+    } else if (puntaje == 33) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//C
+if (edad === "13,8" && subtest === "C") {
+  for (let i = 0; i <= 42; i++) {
+    if (puntaje <= 11) {
+      equivalencia = 1;
+    } else if (puntaje <= 13) {
+      equivalencia = 2;
+    } else if (puntaje <= 15) {
+      equivalencia = 3;
+    } else if (puntaje <= 17) {
+      equivalencia = 4;
+    } else if (puntaje <= 20) {
+      equivalencia = 5;
+    } else if (puntaje <= 22) {
+      equivalencia = 6;
+    } else if (puntaje <= 24) {
+      equivalencia = 7;
+    } else if (puntaje <= 26) {
+      equivalencia = 8;
+    } else if (puntaje <= 28) {
+      equivalencia = 9;
+    } else if (puntaje <= 30) {
+      equivalencia = 10;
+    } else if (puntaje <= 32) {
+      equivalencia = 11;
+    } else if (puntaje <= 34) {
+      equivalencia = 12;
+    } else if (puntaje <= 36) {
+      equivalencia = 13;
+    } else if (puntaje == 37) {
+      equivalencia = 14;
+    } else if (puntaje == 38) {
+      equivalencia = 15;
+    } else if (puntaje == 39) {
+      equivalencia = 17;
+    } else if (puntaje == 40) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//BS
+if (edad === "13,8" && subtest === "BS") {
+  for (let i = 0; i <= 60; i++) {
+    if (puntaje <= 10) {
+      equivalencia = 1;
+    } else if (puntaje <= 12) {
+      equivalencia = 2;
+    } else if (puntaje <= 14) {
+      equivalencia = 3;
+    } else if (puntaje <= 17) {
+      equivalencia = 4;
+    } else if (puntaje <= 19) {
+      equivalencia = 5;
+    } else if (puntaje <= 21) {
+      equivalencia = 6;
+    } else if (puntaje <= 23) {
+      equivalencia = 7;
+    } else if (puntaje <= 25) {
+      equivalencia = 8;
+    } else if (puntaje <= 27) {
+      equivalencia = 9;
+    } else if (puntaje == 28) {
+      equivalencia = 10;
+    } else if (puntaje <= 30) {
+      equivalencia = 11;
+    } else if (puntaje <= 32) {
+      equivalencia = 12;
+    } else if (puntaje <= 34) {
+      equivalencia = 13;
+    } else if (puntaje == 35) {
+      equivalencia = 14;
+    } else if (puntaje <= 37) {
+      equivalencia = 15;
+    } else if (puntaje <= 39) {
+      equivalencia = 16;
+    } else if (puntaje == 40) {
+      equivalencia = 17;
+    } else if (puntaje <= 42) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//CF
+if (edad === "13,8" && subtest === "CF") {
+  for (let i = 0; i <= 38; i++) {
+    if (puntaje <= 11) {
+      equivalencia = 1;
+    } else if (puntaje <= 13) {
+      equivalencia = 2;
+    } else if (puntaje <= 16) {
+      equivalencia = 3;
+    } else if (puntaje <= 18) {
+      equivalencia = 4;
+    } else if (puntaje <= 20) {
+      equivalencia = 5;
+    } else if (puntaje <= 22) {
+      equivalencia = 6;
+    } else if (puntaje <= 24) {
+      equivalencia = 7;
+    } else if (puntaje == 25) {
+      equivalencia = 8;
+    } else if (puntaje <= 27) {
+      equivalencia = 9;
+    } else if (puntaje <= 29) {
+      equivalencia = 10;
+    } else if (puntaje == 30) {
+      equivalencia = 11;
+    } else if (puntaje == 31) {
+      equivalencia = 12;
+    } else if (puntaje == 32) {
+      equivalencia = 13;
+    } else if (puntaje == 33) {
+      equivalencia = 14;
+    } else if (puntaje == 34) {
+      equivalencia = 15;
+    } else if (puntaje == 35) {
+      equivalencia = 16;
+    } else if (puntaje == 36) {
+      equivalencia = 17;
+    } else if (puntaje == 37) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//A
+if (edad === "13,8" && subtest === "A") {
+  for (let i = 0; i <= 136; i++) {
+    if (puntaje <= 30) {
+      equivalencia = 1;
+    } else if (puntaje <= 35) {
+      equivalencia = 2;
+    } else if (puntaje <= 41) {
+      equivalencia = 3;
+    } else if (puntaje <= 50) {
+      equivalencia = 4;
+    } else if (puntaje <= 57) {
+      equivalencia = 5;
+    } else if (puntaje <= 64) {
+      equivalencia = 6;
+    } else if (puntaje <= 71) {
+      equivalencia = 7;
+    } else if (puntaje <= 77) {
+      equivalencia = 8;
+    } else if (puntaje <= 82) {
+      equivalencia = 9;
+    } else if (puntaje <= 88) {
+      equivalencia = 10;
+    } else if (puntaje <= 95) {
+      equivalencia = 11;
+    } else if (puntaje <= 100) {
+      equivalencia = 12;
+    } else if (puntaje <= 107) {
+      equivalencia = 13;
+    } else if (puntaje <= 111) {
+      equivalencia = 14;
+    } else if (puntaje <= 117) {
+      equivalencia = 15;
+    } else if (puntaje <= 123) {
+      equivalencia = 16;
+    } else if (puntaje <= 133) {
+      equivalencia = 17;
+    } else if (puntaje <= 136) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//I      
+if (edad === "13,8" && subtest === "I") {
+  for (let i = 0; i <= 33; i++) {
+    if (puntaje <= 9) {
+      equivalencia = 1;
+    } else if (puntaje <= 11) {
+      equivalencia = 2;
+    } else if (puntaje == 12) {
+      equivalencia = 3;
+    } else if (puntaje == 13) {
+      equivalencia = 4;
+    } else if (puntaje <= 15) {
+      equivalencia = 5;
+    } else if (puntaje == 16) {
+      equivalencia = 6;
+    } else if (puntaje == 17) {
+      equivalencia = 7;
+    } else if (puntaje <= 19) {
+      equivalencia = 8;
+    } else if (puntaje == 20) {
+      equivalencia = 9;
+    } else if (puntaje == 21) {
+      equivalencia = 10;
+    } else if (puntaje <= 23) {
+      equivalencia = 11;
+    } else if (puntaje == 24) {
+      equivalencia = 12;
+    } else if (puntaje == 25) {
+      equivalencia = 13;
+    } else if (puntaje == 26) {
+      equivalencia = 14;
+    } else if (puntaje <= 28) {
+      equivalencia = 15;
+    } else if (puntaje == 29) {
+      equivalencia = 16;
+    } else if (puntaje == 30) {
+      equivalencia = 17;
+    } else if (puntaje == 31) {
+      equivalencia = 18;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//AR
+if (edad === "13,8" && subtest === "AR") {
+  for (let i = 0; i <= 34; i++) {
+    if (puntaje <= 16) {
+      equivalencia = 1;
+    } else if (puntaje == 17) {
+      equivalencia = 2;
+    } else if (puntaje == 18) {
+      equivalencia = 3;
+    } else if (puntaje == 19) {
+      equivalencia = 4;
+    } else if (puntaje == 20) {
+      equivalencia = 5;
+    } else if (puntaje == 21) {
+      equivalencia = 6;
+    } else if (puntaje == 22) {
+      equivalencia = 7;
+    } else if (puntaje <= 24) {
+      equivalencia = 8;
+    } else if (puntaje == 25) {
+      equivalencia = 9;
+    } else if (puntaje == 26) {
+      equivalencia = 10;
+    } else if (puntaje == 27) {
+      equivalencia = 11;
+    } else if (puntaje == 28) {
+      equivalencia = 12;
+    } else if (puntaje == 29) {
+      equivalencia = 13;
+    } else if (puntaje == 30) {
+      equivalencia = 15;
+    } else if (puntaje == 31) {
+      equivalencia = 16;
+    } else if (puntaje == 32) {
+      equivalencia = 17;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//AD
+if (edad === "13,8" && subtest === "AD") {
+  for (let i = 0; i <= 24; i++) {
+    if (puntaje <= 8) {
+      equivalencia = 1;
+    } else if (puntaje == 9) {
+      equivalencia = 2;
+    } else if (puntaje == 10) {
+      equivalencia = 3;
+    } else if (puntaje == 11) {
+      equivalencia = 4;
+    } else if (puntaje == 12) {
+      equivalencia = 5;
+    } else if (puntaje <= 14) {
+      equivalencia = 6;
+    } else if (puntaje == 15) {
+      equivalencia = 7;
+    } else if (puntaje == 16) {
+      equivalencia = 8;
+    } else if (puntaje == 17) {
+      equivalencia = 9;
+    } else if (puntaje == 18) {
+      equivalencia = 10;
+    } else if (puntaje == 19) {
+      equivalencia = 11;
+    } else if (puntaje == 20) {
+      equivalencia = 12;
+    } else if (puntaje == 21) {
+      equivalencia = 14;
+    } else if (puntaje == 22) {
+      equivalencia = 16;
+    } else if (puntaje == 23) {
+      equivalencia = 17;
+    } else {
+      equivalencia = 19;
+    }  
+    var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
+    inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
+    }
+  }
+
+//Edad 14 a 14,3
+//CC
 
 
 
