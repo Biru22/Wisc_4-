@@ -113,9 +113,11 @@ if (edad === "6,0") {
           equivalencia = 17;
         } else if (puntaje <= ) {
           equivalencia = 18;
-        } else {
+        } else if (puntaje <= ) {
           equivalencia = 19;
-        }  
+        } else {
+          equivalencia = mensaje;
+        }
         var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
         inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
         }
@@ -160,13 +162,14 @@ if (edad === "6,0") {
             equivalencia = 17;
           } else if (puntaje == ) {
             equivalencia = 18;
-          } else {
+          } else if (puntaje == ) {
             equivalencia = 19;
-          }  
+          } else {
+            equivalencia = mensaje;
+          }
           var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
           inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
           }
         }
         
-
 

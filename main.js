@@ -3,7 +3,7 @@ const subtestSelect = document.getElementById("Subtest");
 var boton = document.getElementById("buttonselect");
 const resultado = document.getElementById("resultado");
 var button = document.getElementById("buttonConvertir")
-const mensaje = document.getElementById("mensaje");
+const mensaje = "El número ingresado no es valido";
 
 boton.addEventListener("click", function() {
   filtrar();
@@ -16622,9 +16622,11 @@ if (edad === "13,8" && subtest === "AD") {
       equivalencia = 16;
     } else if (puntaje == 23) {
       equivalencia = 17;
-    } else {
+    } else if (puntaje == 24) {
       equivalencia = 19;
-    }  
+    } else {
+      equivalencia = mensaje;
+    }
     var inputPuntuacionEscalar = document.getElementById("PuntuacionEscalar");
     inputPuntuacionEscalar.value = PuntuacionEscalar = equivalencia;
     }
@@ -16632,8 +16634,6 @@ if (edad === "13,8" && subtest === "AD") {
 
 //Edad 14 a 14,3
 //CC
-
-
 
 
 
