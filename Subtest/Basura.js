@@ -75,7 +75,7 @@ if (edad === "6,0") {
     }
 
 
-    if (edad === "14,0" && subtest === "") {
+    if (edad === "15,0" && subtest === "") {
       for (let i = 0; i <= ; i++) {
         if (puntaje <= ) {
           equivalencia = 1;
@@ -124,7 +124,7 @@ if (edad === "6,0") {
       }
 
 
-      if (edad === "14,0" && subtest === "") {
+      if (edad === "15,0" && subtest === "") {
         for (let i = 0; i <= ; i++) {
           if (puntaje == ) {
             equivalencia = 1;
@@ -173,3 +173,4 @@ if (edad === "6,0") {
         }
         
 
+//El mensaje inicia desde los 14,0 años, revisar todo lo anterior
