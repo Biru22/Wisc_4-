@@ -75,7 +75,7 @@ if (edad === "6,0") {
     }
 
 
-    if (edad === "16,0" && subtest === "") {
+    if (edad === "16,8" && subtest === "") {
       for (let i = 0; i <= ; i++) {
         if (puntaje <= ) {
           equivalencia = 1;
@@ -124,7 +124,7 @@ if (edad === "6,0") {
       }
 
 
-      if (edad === "16,0" && subtest === "") {
+      if (edad === "16,8" && subtest === "") {
         for (let i = 0; i <= ; i++) {
           if (puntaje == ) {
             equivalencia = 1;
