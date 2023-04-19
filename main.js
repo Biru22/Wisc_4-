@@ -31,6 +31,19 @@ function filtrar() {
   }
 }
 
+function limpiar() {
+  document.getElementById('PuntuacionEscalar').value = "";
+  button.disabled = true;
+}
+edadSelect.addEventListener('change', function() {
+  limpiar();
+});
+
+subtestSelect.addEventListener('change', function() {
+  limpiar();
+});
+
+
 var puntaje;
 function convertir() {
   const edad = document.getElementById('edad').value;
