@@ -13,10 +13,22 @@ button.addEventListener('click', function() {
   convertir();
 });
 
+document.addEventListener("keydown", function(event) {
+  if (event.key === "Enter" && !button.disabled) {
+      event.preventDefault();
+      convertir();
+  }
+});
+
 function filtrar() {
   const edadSeleccionada = edadSelect.value;
   const subtestSeleccionado = subtestSelect.value;
   boton.innerText = `${edadSeleccionada} - ${subtestSeleccionado}`;
+  if (edadSeleccionada && subtestSeleccionado) {
+    button.disabled = false;
+  } else {
+    button.disabled = true;
+  }
 }
 
 var puntaje;

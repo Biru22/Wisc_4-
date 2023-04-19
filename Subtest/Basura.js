@@ -174,3 +174,4 @@ if (edad === "6,0") {
         
 
 //El mensaje inicia desde los 14,0 años, revisar todo lo anterior
+/* A evalue hasta el 13,8 /* 
