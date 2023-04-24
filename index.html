@@ -7,9 +7,12 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
+        <header>
         <h1>Conversor de Puntuaciones</h1>
         <h2>Normas y tablas de conversión edición Argentina (Buenos Aires)</h2>
         <hr>
+    </header>
+    <main>
     <form>
         <label>Edades</label>
         <select id="edad">
@@ -73,17 +76,17 @@
         <p>De</p>
         <form>
             <label>Puntuación Directa</label>
-            <input type="number" name="Puntuación Directa" id="PuntuacionDirecta"></input>
+            <input type="number" name="Puntuación Directa" id="PuntuacionDirecta" min="0">
         </form>
         <p>A</p>
         <form>
             <label>Puntuación Escalar</label>
-            <input type="text" name="Puntuación Escalar" id="PuntuacionEscalar" readonly></input>
+            <input type="text" name="Puntuación Escalar" id="PuntuacionEscalar" readonly>
         </form>
         <button id="buttonConvertir" type="button" onclick="convertir()" disabled>Convertir</button>
-        <div class="box1">
-        <img alt="Fotografía test Wisc 4" width="200" src="img/Imagen WISC 4.jpg">
-        <br><br>
+    </main>
+        <footer>
+        <img alt="Fotografía test Wisc 4" width="200" src="img/Imagen_WISC_4.jpg">
         <pre>   
             La presente herramienta ha sido ideada 
             con el propósito de facilitar la creación 
@@ -95,7 +98,7 @@
             permitiendo una mayor eficiencia 
             y comodidad en la evaluación de sus puntuaciones.
         </pre>
-        </div>
+        </footer>
         <h2>Subtest</h2>
         <ol>
             <li>
