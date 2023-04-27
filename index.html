@@ -1,93 +1,111 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Conversor de Puntuaciones Wisc4</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <body>
-        <header>
-        <h1>Conversor de Puntuaciones</h1>
-        <h2>Normas y tablas de conversión edición Argentina (Buenos Aires)</h2>
-        <hr>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Conversor de Puntuaciones Wisc4</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Conversor de Puntuaciones</h1>
+      <h2>Normas y tablas de conversión edición Argentina (Buenos Aires)</h2>
+      <hr />
     </header>
     <main>
-    <form>
+      <form>
         <label>Edades</label>
         <select id="edad">
-            <option value="6,0">6 a 6,3</option>
-            <option value="6,4">6,4 a 6,7</option>
-            <option value="6,8">6,8 a 6,11</option>
-            <option value="7,0">7 a 7,3</option>
-            <option value="7,4">7,4 a 7,7</option>
-            <option value="7,8">7,8 a 7,11</option>
-            <option value="8,0">8 a 8,3</option>
-            <option value="8,4">8,4 a 8,7</option>
-            <option value="8,8">8,8 a 8,11</option>
-            <option value="9,0">9 a 9,3</option>
-            <option value="9,4">9,4 a 9,7</option>
-            <option value="9,8">9,8 a 9,11</option>
-            <option value="10,0">10 a 10,3</option>
-            <option value="10,4">10,4 a 10,7</option>
-            <option value="10,8">10,8 a 10,11</option>
-            <option value="11,0">11 a 11,3</option>
-            <option value="11,4">11,4 a 11,7</option>
-            <option value="11,8">11,8 a 11,11</option>
-            <option value="12,0">12 a 12,3</option>
-            <option value="12,4">12,4 a 12,7</option>
-            <option value="12,8">12,8 a 12,11</option>
-            <option value="13,0">13 a 13,3</option>
-            <option value="13,4">13,4 a 13,7</option>
-            <option value="13,8">13,8 a 13,11</option>
-            <option value="14,0">14 a 14,3</option>
-            <option value="14,4">14,4 a 14,7</option>
-            <option value="14,8">14,8 a 14,11</option>
-            <option value="15,0">15 a 15,3</option>
-            <option value="15,4">15,4 a 15,7</option>
-            <option value="15,8">15,8 a 15,11</option>
-            <option value="16,0">16 a 16,3</option>
-            <option value="16,4">16,4 a 16,7</option>
-            <option value="16,8">16,8 a 16,11</option>
+          <option value="6,0">6 a 6,3</option>
+          <option value="6,4">6,4 a 6,7</option>
+          <option value="6,8">6,8 a 6,11</option>
+          <option value="7,0">7 a 7,3</option>
+          <option value="7,4">7,4 a 7,7</option>
+          <option value="7,8">7,8 a 7,11</option>
+          <option value="8,0">8 a 8,3</option>
+          <option value="8,4">8,4 a 8,7</option>
+          <option value="8,8">8,8 a 8,11</option>
+          <option value="9,0">9 a 9,3</option>
+          <option value="9,4">9,4 a 9,7</option>
+          <option value="9,8">9,8 a 9,11</option>
+          <option value="10,0">10 a 10,3</option>
+          <option value="10,4">10,4 a 10,7</option>
+          <option value="10,8">10,8 a 10,11</option>
+          <option value="11,0">11 a 11,3</option>
+          <option value="11,4">11,4 a 11,7</option>
+          <option value="11,8">11,8 a 11,11</option>
+          <option value="12,0">12 a 12,3</option>
+          <option value="12,4">12,4 a 12,7</option>
+          <option value="12,8">12,8 a 12,11</option>
+          <option value="13,0">13 a 13,3</option>
+          <option value="13,4">13,4 a 13,7</option>
+          <option value="13,8">13,8 a 13,11</option>
+          <option value="14,0">14 a 14,3</option>
+          <option value="14,4">14,4 a 14,7</option>
+          <option value="14,8">14,8 a 14,11</option>
+          <option value="15,0">15 a 15,3</option>
+          <option value="15,4">15,4 a 15,7</option>
+          <option value="15,8">15,8 a 15,11</option>
+          <option value="16,0">16 a 16,3</option>
+          <option value="16,4">16,4 a 16,7</option>
+          <option value="16,8">16,8 a 16,11</option>
         </select>
-        <br>
-        <br>
+        <br />
+        <br />
         <label>Elija el Subtest</label>
         <select id="Subtest">
-            <option value="CC">Contrucción con Cubos</option>
-            <option value="S">Semejanzas</option>
-            <option value="RD">Retención de Dígitos</option>
-            <option value="CO">Conceptos</option>
-            <option value="CL">Claves</option>
-            <option value="V">Vocabulario</option>
-            <option value="LN">Letras y Números</option>
-            <option value="M">Matrices</option>
-            <option value="C">Comprensión</option>
-            <option value="BS">Búsqueda de Símbolos</option>
-            <option value="CF">Completamiento de Figuras</option>
-            <option value="A">Animales</option>
-            <option value="I">Información</option>
-            <option value="AR">Aritmética</option>
-            <option value="AD">Adivinanzas</option>
+          <option value="CC">Contrucción con Cubos</option>
+          <option value="S">Semejanzas</option>
+          <option value="RD">Retención de Dígitos</option>
+          <option value="CO">Conceptos</option>
+          <option value="CL">Claves</option>
+          <option value="V">Vocabulario</option>
+          <option value="LN">Letras y Números</option>
+          <option value="M">Matrices</option>
+          <option value="C">Comprensión</option>
+          <option value="BS">Búsqueda de Símbolos</option>
+          <option value="CF">Completamiento de Figuras</option>
+          <option value="A">Animales</option>
+          <option value="I">Información</option>
+          <option value="AR">Aritmética</option>
+          <option value="AD">Adivinanzas</option>
         </select>
-        <br>
-        <button id="buttonselect" type="button" onclick="filtrar()">Seleccionar</button>
-    </form>
-        <p>De</p>
-        <form>
-            <label>Puntuación Directa</label>
-            <input type="number" name="Puntuación Directa" id="PuntuacionDirecta" min="0">
-        </form>
-        <p>A</p>
-        <form>
-            <label>Puntuación Escalar</label>
-            <input type="text" name="Puntuación Escalar" id="PuntuacionEscalar" readonly>
-        </form>
-        <button id="buttonConvertir" type="button" onclick="convertir()" disabled>Convertir</button>
+        <br />
+        <button id="buttonselect" type="button" onclick="filtrar()">
+          Seleccionar
+        </button>
+      </form>
+      <p>De</p>
+      <form>
+        <label>Puntuación Directa</label>
+        <input
+          type="number"
+          name="Puntuación Directa"
+          id="PuntuacionDirecta"
+          min="0"
+        />
+      </form>
+      <p>A</p>
+      <form>
+        <label>Puntuación Escalar</label>
+        <input
+          type="text"
+          name="Puntuación Escalar"
+          id="PuntuacionEscalar"
+          readonly
+        />
+      </form>
+      <button id="buttonConvertir" type="button" onclick="convertir()" disabled>
+        Convertir
+      </button>
     </main>
-        <footer>
-        <img alt="Fotografía test Wisc 4" width="200" src="img/Imagen_WISC_4.jpg">
-        <pre>   
+    <footer>
+      <img
+        alt="Fotografía test Wisc 4"
+        width="200"
+        src="img/Imagen_WISC_4.jpg"
+      />
+      <pre>
             La presente herramienta ha sido ideada 
             con el propósito de facilitar la creación 
             de una conexión directa y precisa 
@@ -98,7 +116,12 @@
             permitiendo una mayor eficiencia 
             y comodidad en la evaluación de sus puntuaciones.
         </pre>
-        </footer>
-        <script src="main.js"></script>
-    </body>
+      <img
+        alt="Workspace"
+        src="img/Midi.png"
+        id="Workspace"
+      />
+    </footer>
+    <script src="main.js"></script>
+  </body>
 </html>
