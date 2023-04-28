@@ -115,7 +115,7 @@ function convertir() {
       } else if (puntaje <= 11) {
         equivalencia = 12;
       } else if (puntaje == 12) {
-        equivalencias = 13;
+        equivalencia = 13;
       } else if (puntaje == 13) {
         equivalencia = 14;
       } else if (puntaje <= 15) {
@@ -914,7 +914,7 @@ function convertir() {
     }
   }
 
-  //C
+  //CL
   if (edad === "6,4" && subtest === "CL") {
     for (let i = 0; i <= 65; i++) {
       if (puntaje <= 3) {
@@ -4041,7 +4041,7 @@ function convertir() {
         equivalencia = 4;
       } else if (puntaje <= 9) {
         equivalencia = 5;
-      } else if (puntaje <= 10) {
+      } else if (puntaje == 10) {
         equivalencia = 6;
       } else if (puntaje <= 12) {
         equivalencia = 7;
@@ -5715,7 +5715,7 @@ function convertir() {
     }
   }
 
-  //Edades 8,8 a 8,11
+  //Edad 8,8 a 8,11
   //CC
   if (edad === "8,8" && subtest === "CC") {
     for (let i = 0; i <= 68; i++) {
@@ -11233,11 +11233,11 @@ function convertir() {
         equivalencia = 14;
       } else if (puntaje == 32) {
         equivalencia = 15;
-      } else if (puntaje <= 33) {
+      } else if (puntaje == 33) {
         equivalencia = 16;
-      } else if (puntaje <= 34) {
+      } else if (puntaje == 34) {
         equivalencia = 17;
-      } else if (puntaje <= 35) {
+      } else if (puntaje == 35) {
         equivalencia = 18;
       } else if (puntaje <= 42) {
         equivalencia = 19;
@@ -12326,35 +12326,35 @@ function convertir() {
         equivalencia = 2;
       } else if (puntaje <= 7) {
         equivalencia = 3;
-      } else if (puntaje <= 11) {
+      } else if (puntaje <= 9) {
         equivalencia = 4;
-      } else if (puntaje <= 16) {
+      } else if (puntaje <= 11) {
         equivalencia = 5;
-      } else if (puntaje <= 20) {
+      } else if (puntaje <= 14) {
         equivalencia = 6;
-      } else if (puntaje <= 24) {
+      } else if (puntaje <= 16) {
         equivalencia = 7;
-      } else if (puntaje <= 19) {
+      } else if (puntaje <= 18) {
         equivalencia = 8;
-      } else if (puntaje <= 33) {
+      } else if (puntaje <= 20) {
         equivalencia = 9;
-      } else if (puntaje <= 37) {
+      } else if (puntaje <= 23) {
         equivalencia = 10;
-      } else if (puntaje <= 42) {
+      } else if (puntaje <= 25) {
         equivalencia = 11;
-      } else if (puntaje <= 46) {
+      } else if (puntaje <= 27) {
         equivalencia = 12;
-      } else if (puntaje <= 50) {
+      } else if (puntaje <= 29) {
         equivalencia = 13;
-      } else if (puntaje <= 53) {
+      } else if (puntaje <= 31) {
         equivalencia = 14;
-      } else if (puntaje <= 56) {
+      } else if (puntaje <= 33) {
         equivalencia = 15;
-      } else if (puntaje <= 58) {
+      } else if (puntaje <= 35) {
         equivalencia = 16;
-      } else if (puntaje <= 60) {
+      } else if (puntaje <= 37) {
         equivalencia = 17;
-      } else if (puntaje <= 62) {
+      } else if (puntaje <= 39) {
         equivalencia = 18;
       } else if (puntaje <= 44) {
         equivalencia = 19;
@@ -18467,7 +18467,7 @@ function convertir() {
   }
 
   //C
-  if (edad === "14,4" && subtest === "CF") {
+  if (edad === "14,4" && subtest === "C") {
     for (let i = 0; i <= 42; i++) {
       if (puntaje <= 12) {
         equivalencia = 1;
@@ -19562,7 +19562,7 @@ function convertir() {
   }
 
   //S
-  if (edad === "15,0" && subtest === "") {
+  if (edad === "15,0" && subtest === "S") {
     for (let i = 0; i <= 44; i++) {
       if (puntaje <= 9) {
         equivalencia = 1;
@@ -20798,7 +20798,7 @@ function convertir() {
         equivalencia = 17;
       } else if (puntaje <= 135) {
         equivalencia = 18;
-      } else if (puntaje <= 136) {
+      } else if (puntaje == 136) {
         equivalencia = 19;
       } else {
         equivalencia = mensaje;
@@ -22171,7 +22171,7 @@ function convertir() {
         equivalencia = 16;
       } else if (puntaje == 37) {
         equivalencia = 17;
-      } else if (puntaje <= 38) {
+      } else if (puntaje == 38) {
         equivalencia = 19;
       } else {
         equivalencia = mensaje;
