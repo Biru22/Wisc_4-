@@ -23691,7 +23691,7 @@ function convertir() {
 
   //AR
   if (edad === "16,8" && subtest === "AR") {
-    for (let i = 0; i <= 33; i++) {
+    for (let i = 0; i <= 34; i++) {
       if (puntaje <= 18) {
         equivalencia = 1;
       } else if (puntaje <= 20) {
