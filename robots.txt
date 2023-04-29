@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /images/
+Disallow: /docs/
+Disallow: /test/
+Sitemap: https://conversor-wisc4.netlify.app/sitemap.xml
